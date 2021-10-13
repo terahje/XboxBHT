@@ -19,6 +19,14 @@ body {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: 'x360_by_redgeregular';
+  src: url('x360-webfont.woff2') format('woff2'),
+    url('x360-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --primary-color: rgb(16, 124, 16);
   --dark-green: rgb(8, 61, 8);
