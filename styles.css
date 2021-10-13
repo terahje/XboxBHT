@@ -314,6 +314,7 @@ Put images of game in the cards, create new page for longer reviews */
   color: var(--dark-green);
   font-family: var(--font-family_sub-title);
   font-size: 3.5rem;
+  text-align: center;
   margin-top: 4rem;
   margin-bottom: 4rem;
   text-shadow: 0.2rem 0.3rem 0.4rem rgba(255, 255, 255, 0.5);
@@ -323,6 +324,7 @@ Put images of game in the cards, create new page for longer reviews */
   font-size: 2rem;
   font-family: var(--font-family_regular);
   font-weight: 200;
+  text-align: justify;
 }
 .break {
   width: 100%;
@@ -420,11 +422,12 @@ Put images of game in the cards, create new page for longer reviews */
 
 .hardware-review-p {
   width: 60%;
-  height: 30vh;
+  height: auto;
   margin: 10rem auto;
   font-size: 3rem;
   font-family: var(--font-family_regular);
   font-weight: 300;
+  text-align: justify;
   color: var(--white-color);
 }
 
@@ -646,3 +649,318 @@ Put images of game in the cards, create new page for longer reviews */
   color: white !important;
 }
 /* End of Footer */
+
+/* Responsiveness */
+@media (max-width: 1400px) {
+  .banner-heading span {
+    font-size: 7rem;
+  }
+
+  .logo {
+    left: 5rem;
+  }
+
+  .section-2,
+  .section-3,
+  .section-4 {
+    flex-direction: column;
+  }
+
+  .card-body {
+    width: 55vw;
+    height: 40vh;
+  }
+
+  .game-review-p {
+    width: 60%;
+    height: 30vh;
+    margin: 6rem auto 15rem auto;
+    text-align: justify;
+  }
+
+  .section-2 {
+    height: 120vh;
+  }
+
+  .prev {
+    left: 19%;
+  }
+
+  .next {
+    right: 19%;
+  }
+
+  .prev,
+  .next {
+    bottom: 29%;
+  }
+
+  .section-2-paragraph {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80rem;
+  }
+
+  .card-description {
+    font-size: 2.2rem;
+  }
+
+  .section-3 {
+    height: auto;
+    padding: 5rem 0 10rem 0;
+  }
+
+  .section-3 .section-heading {
+    margin-bottom: 7rem;
+  }
+
+  .swiper-container {
+    width: 100%;
+  }
+
+  .section-4 {
+    height: auto;
+    padding: 5rem 0;
+  }
+
+  .about-x-bg::before {
+    height: 90rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 40%;
+  }
+
+  .landing {
+    height: 72vh;
+  }
+
+  .banner {
+    top: 25%;
+  }
+
+  .banner-heading {
+    height: 15rem;
+  }
+
+  .section-2 {
+    height: 79vh;
+  }
+
+  .game-review-p {
+    height: 20vh;
+  }
+
+  .banner-heading span {
+    font-size: 8rem;
+  }
+
+  .card-title {
+    margin-top: 5rem;
+  }
+
+  .card-description {
+    font-size: 3.5rem;
+    margin: 8rem;
+  }
+
+  .prev,
+  .next {
+    font-size: 8.5rem;
+  }
+
+  .hardware-review-p {
+    width: 60%;
+    height: auto;
+    margin: 10rem auto;
+    font-size: 3rem;
+    font-family: var(--font-family_regular);
+    font-weight: 300;
+    color: var(--white-color);
+  }
+
+  .about-x-symbol {
+    height: 37vh;
+    font-size: 3.5rem;
+  }
+
+  .footer {
+    padding: 0 5rem;
+  }
+
+  .footer-nav a {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 35%;
+  }
+
+  .section-2 {
+    height: 90vh;
+  }
+
+  .card-description {
+    font-size: 3rem;
+  }
+
+  .prev,
+  .next {
+    bottom: 22%;
+    font-size: 10rem;
+  }
+  .contact-details div {
+    margin: 3rem 2rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-nav {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 30%;
+  }
+
+  .banner-heading span {
+    font-size: 4.5rem;
+    letter-spacing: 2rem;
+  }
+
+  @keyframes animateHeading {
+    0% {
+      transform: translateZ(8rem);
+      opacity: 0;
+      letter-spacing: 2rem;
+    }
+
+    3% {
+      transform: translateZ(0);
+      opacity: 1;
+      letter-spacing: 1rem;
+    }
+
+    25% {
+      transform: translateZ(0);
+      opacity: 1;
+      letter-spacing: 1rem;
+    }
+
+    28% {
+      transform: translateZ(8rem);
+      opacity: 0;
+      letter-spacing: 2rem;
+    }
+
+    100% {
+      transform: translateZ(8rem);
+      opacity: 0;
+      letter-spacing: 2rem;
+    }
+  }
+
+  .banner-paragraph {
+    width: 60%;
+    animation: fadeAnimation 1s 1.5s forwards;
+  }
+
+  .section-2 {
+    height: auto;
+  }
+
+  .section-2-heading {
+    font-size: 7rem;
+  }
+
+  .section-2-paragraph {
+    width: 60rem;
+  }
+
+  .card-title {
+    font-size: 8.5rem;
+  }
+
+  .game-review-p {
+    width: 75%;
+    height: auto;
+    margin: 6rem auto 15rem auto;
+    text-align: justify;
+    font-size: 3.4rem;
+  }
+
+  .card-body {
+    width: 85vw;
+    height: auto;
+    margin: 5rem auto;
+  }
+
+  .prev {
+    left: 9%;
+    height: 43.5vh;
+  }
+
+  .next {
+    right: 9%;
+    height: 43.5vh;
+  }
+
+  .prev,
+  .next {
+    bottom: 1%;
+    font-size: 10rem;
+    background-color: grey;
+  }
+
+  .hardware-review-p {
+    width: 75%;
+    font-size: 3.4rem;
+  }
+
+  .hard-img {
+    width: 80vw;
+    height: 55vw;
+  }
+
+  .about-x-symbol {
+    width: 100%;
+    height: 42vh;
+    margin: 0 auto;
+    font-size: 3rem;
+    font-family: var(--font-family_special);
+    font-weight: 400;
+    z-index: 100;
+    color: #000;
+    position: absolute;
+    text-align: justify;
+    padding: 8rem;
+  }
+
+  .icon-link,
+  .x-icon-link {
+    margin: 0 3rem;
+    margin-right: 3rem;
+  }
+
+  .copyright {
+    bottom: 1rem;
+    right: auto;
+  }
+}
+
+/* End of Responsiveness */
