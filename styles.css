@@ -15,6 +15,10 @@ html {
   max-width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 :root {
   --primary-color: rgb(16, 124, 16);
   --dark-green: rgb(8, 61, 8);
@@ -255,7 +259,7 @@ html {
 Put images of game in the cards, create new page for longer reviews */
 .section-2 {
   width: 100%;
-  height: 100vh;
+  height: 111vh;
   background-color: var(--white-color);
   position: relative;
 }
@@ -382,7 +386,7 @@ Put images of game in the cards, create new page for longer reviews */
 /* Section 3 - Hardware Reviews */
 .section-3 {
   width: 100%;
-  height: 135vh;
+  height: 165vh;
   background: url(/images/dark-bg2.jpg) no-repeat;
   background-size: cover;
 
