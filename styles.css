@@ -134,6 +134,7 @@ body {
   height: 20rem;
   perspective: 50rem;
   overflow: hidden;
+  font-family: 'x360_by_redgeregular';
   font-family: var(--font-family_title);
 }
 
@@ -275,6 +276,7 @@ Put images of game in the cards, create new page for longer reviews */
 /* Section 2 Heading */
 .section-2-heading {
   font-size: 10rem;
+  font-family: 'x360_by_redgeregular';
   font-family: var(--font-family_title);
   color: var(--dark-green);
   position: relative;
@@ -415,6 +417,7 @@ Put images of game in the cards, create new page for longer reviews */
 
 .section-3-heading {
   font-size: 10rem;
+  font-family: 'x360_by_redgeregular';
   font-family: var(--font-family_title);
   color: var(--white-color);
   position: relative;
@@ -525,6 +528,7 @@ Put images of game in the cards, create new page for longer reviews */
   width: 0;
   overflow: hidden;
   transition: width 0.3s;
+  font-family: 'x360_by_redgeregular';
   font-family: var(--font-family_title);
 }
 
@@ -648,6 +652,7 @@ Put images of game in the cards, create new page for longer reviews */
   bottom: 4rem;
   right: 5rem;
   font-size: 1.5rem;
+  font-family: 'x360_by_redgeregular';
   font-family: var(--font-family_title);
   color: var(--white-color);
   letter-spacing: 0.1rem;
