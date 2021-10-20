@@ -596,12 +596,13 @@ Put images of game in the cards, create new page for longer reviews */
   justify-self: center;
 }
 .game-review-p {
-  width: 60%;
+  width: 75%;
   height: auto;
   margin: 10rem auto;
   font-size: 3rem;
   font-family: var(--font-family_regular);
   font-weight: 300;
+  text-align: justify;
 }
 
 .cards-container {
@@ -610,7 +611,7 @@ Put images of game in the cards, create new page for longer reviews */
 
 .card-body {
   width: 40vw;
-  height: 40vh;
+  height: auto;
   background-color: grey;
   color: #fff;
   border-radius: 10px;
@@ -675,7 +676,7 @@ Put images of game in the cards, create new page for longer reviews */
 .next {
   position: absolute;
   cursor: pointer;
-  bottom: 13%;
+  bottom: 40%;
   transition: 0.6s ease;
   font-size: 4rem;
   opacity: 0.7;
@@ -740,7 +741,7 @@ Put images of game in the cards, create new page for longer reviews */
 }
 
 .hardware-review-p {
-  width: 60%;
+  width: 75%;
   height: auto;
   margin: 10rem auto;
   font-size: 3rem;
@@ -1003,7 +1004,6 @@ Put images of game in the cards, create new page for longer reviews */
 
   .card-body {
     width: 55vw;
-    height: 40vh;
   }
 
   .game-review-p {
@@ -1018,11 +1018,6 @@ Put images of game in the cards, create new page for longer reviews */
 
   .next {
     right: 19%;
-  }
-
-  .prev,
-  .next {
-    bottom: 13%;
   }
 
   .section-2-paragraph {
@@ -1042,10 +1037,6 @@ Put images of game in the cards, create new page for longer reviews */
 
   .section-3 .section-heading {
     margin-bottom: 7rem;
-  }
-
-  .hardware-review-p {
-    width: 75%;
   }
 
   .swiper-container {
@@ -1087,14 +1078,6 @@ Put images of game in the cards, create new page for longer reviews */
     height: 15rem;
   }
 
-  .section-2 {
-    height: 79vh;
-  }
-
-  .game-review-p {
-    height: 20vh;
-  }
-
   .banner-heading span {
     font-size: 8rem;
   }
@@ -1130,6 +1113,18 @@ Put images of game in the cards, create new page for longer reviews */
 @media (max-width: 900px) {
   html {
     font-size: 35%;
+  }
+
+  .section-2 {
+    height: auto;
+  }
+
+  .game-review-p {
+    height: auto;
+  }
+
+  .card-description {
+    font-size: 3rem;
   }
 }
 
@@ -1197,7 +1192,7 @@ Put images of game in the cards, create new page for longer reviews */
   }
 
   .card-title {
-    font-size: 8.5rem;
+    font-size: 5.5rem;
   }
 
   .game-review-p {
@@ -1240,7 +1235,7 @@ Put images of game in the cards, create new page for longer reviews */
   }
 
   .section-3 {
-    height: 244vh;
+    height: 250vh;
     padding: 5rem 0 10rem 0;
   }
 
@@ -1286,6 +1281,20 @@ Put images of game in the cards, create new page for longer reviews */
   .copyright {
     bottom: 1rem;
     right: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .section-3 {
+    height: auto;
+    padding: 5rem 0 10rem 0;
+  }
+  .glitch {
+    font-size: 4rem;
+  }
+  .about-x-symbol {
+    margin-top: 4rem;
+    height: 50vh;
   }
 }
 
