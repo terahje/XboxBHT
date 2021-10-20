@@ -1066,10 +1066,6 @@ Put images of game in the cards, create new page for longer reviews */
     font-size: 40%;
   }
 
-  .landing {
-    height: 72vh;
-  }
-
   .banner {
     top: 25%;
   }
@@ -1221,7 +1217,7 @@ Put images of game in the cards, create new page for longer reviews */
 
   .prev,
   .next {
-    bottom: 1%;
+    bottom: 0;
     font-size: 10rem;
     background-color: grey;
   }
