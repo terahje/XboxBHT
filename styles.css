@@ -395,7 +395,7 @@ Put images of game in the cards, create new page for longer reviews */
 /* Section 3 - Hardware Reviews */
 .section-3 {
   width: 100%;
-  height: 165vh;
+  height: auto;
   background: url(/images/dark-bg2.jpg) no-repeat;
   background-size: cover;
 
@@ -813,38 +813,6 @@ Put images of game in the cards, create new page for longer reviews */
 
 @media (max-width: 500px) {
   html {
-    font-size: 35%;
-  }
-
-  .section-2 {
-    height: 90vh;
-  }
-
-  .card-description {
-    font-size: 3rem;
-  }
-
-  .prev,
-  .next {
-    bottom: 22%;
-    font-size: 10rem;
-  }
-  .contact-details div {
-    margin: 3rem 2rem;
-  }
-
-  .footer {
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .footer-nav {
-    margin-bottom: 2rem;
-  }
-}
-
-@media (max-width: 500px) {
-  html {
     font-size: 30%;
   }
 
@@ -937,6 +905,14 @@ Put images of game in the cards, create new page for longer reviews */
     background-color: grey;
   }
 
+  .prev:hover,
+  .next:hover {
+    background-color: grey;
+    box-shadow: none;
+    color: rgba(255, 255, 255, 0.4);
+    transform: scale(1) !important;
+  }
+
   .hardware-review-p {
     width: 75%;
     font-size: 3.4rem;
@@ -965,6 +941,15 @@ Put images of game in the cards, create new page for longer reviews */
   .x-icon-link {
     margin: 0 3rem;
     margin-right: 3rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-nav {
+    margin-bottom: 2rem;
   }
 
   .copyright {
